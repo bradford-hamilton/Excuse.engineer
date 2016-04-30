@@ -1,0 +1,44 @@
+body{
+  background-color: yellow;
+  font-family: 'Libre Baskerville', serif;
+}
+.testi :first-child{
+    margin-top: 30px;
+}
+img{
+  height: 200px;
+  width: 300px;
+
+
+}
+.testi div{
+  display: inline-block;
+}
+.cond{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+.testimonials{
+  background-color: lightblue;
+  margin: 100px;
+  text-align: center;
+  border-radius: 20px;
+}
+.testimonials div{
+  font-size: 100px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bodyL{
+  display: inline-block;
+  margin-left: 150px;
+  width: 300px;
+
+}
+.bodyR{
+  display: inline-block;
+  margin-left: 150px;
+  width: 300px;
+}
