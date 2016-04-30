@@ -9,7 +9,7 @@ $(document).ready(function() {
       Game of thrones season 6 started tonight", "There was a penny on the track", "\
       Re-routed to Hawaii", "Dazed and Confused", "I swear I saw a squirrel", "LANDSHARKS!", "\
       I was sexting the conductor", "I was going off the rails on a crazy train", "The city \
-      of New Orleans"];
+      of New Orleans","I was trailed by 20 hounds!"];
     randomQuote = quotes[Math.floor(Math.random()*quotes.length)].split(',');
     $('.saying').text(randomQuote[0]);
     }
