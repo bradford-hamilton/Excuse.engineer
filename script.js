@@ -8,7 +8,8 @@ $(document).ready(function() {
      But.. it's 420", "Loose Caboose!", "I was literally struck by lightning.", " \
       Game of thrones season 6 started tonight", "There was a penny on the track", "\
       Re-routed to Hawaii", "Dazed and Confused", "I swear I saw a squirrel", "LANDSHARKS!", "\
-      I was sexting the conductor", "I was going off the rails on a crazy train"];
+      I was sexting the conductor", "I was going off the rails on a crazy train", "The city \
+      of New Orleans"];
     randomQuote = quotes[Math.floor(Math.random()*quotes.length)];
     quoteAuthor = randomQuote.split("@");
     $('.saying').text(quoteAuthor[0]);
