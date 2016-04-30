@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  generate();
+  makeExcuse();
 
-  function generate() {
+  function makeExcuse() {
     var quotes = ["I was confused about what line I was on!", "I lost my GPS signal..", "\
     What was I supposed to do there was a turkey on the tracks---!", "I hit a small \
     child and got a flat tire?","Damsel in Distress!!!!", "Too much junk in the trunk!", "\
@@ -15,7 +15,7 @@ $(document).ready(function() {
     }
 
     $(".button").click(function() {
-      generate();
+      makeExcuse();
     });
 
     var currentQuote = randomQuote[0] + "   - Annonymous";
