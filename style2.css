@@ -8,11 +8,11 @@ body {
 
 body .container {
   text-align: center;
-  margin: auto 0;
+  margin: 10rem;
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 5.5em;
   color: #fff;
   text-shadow: 1px 1px 4px #000;
   margin: 10px, auto;
@@ -20,7 +20,7 @@ h1 {
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 2em;
   color: #fff;
   text-shadow: 1px 1px 4px #000;
   text-align: center;
@@ -29,9 +29,9 @@ p {
 
 .quote {
   font-family: EB Garamond, serif;
-  font-size: 1.5em;
+  font-size: 3em;
   width: 700px;
-  height: auto;
+  height: 150px;
   margin: 0 auto;
   background-color: yellow;
   padding: 20px;
