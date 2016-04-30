@@ -8,16 +8,6 @@ var server = http.createServer( function(request, response) {
     console.log('Request #' + requests +' came through!');
     requests++;
   };
-  if ( request.url === '/' ) {
-    fs.createReadStream('./excuse.html').pipe(response);
-    console.log('Request #' + requests +' came through!');
-    requests++;
-  };
-  if ( request.url === '/' ) {
-    fs.createReadStream('./test.html').pipe(response);
-    console.log('Request #' + requests +' came through!');
-    requests++;
-  };
   if ( request.url.indexOf('.css') != -1 ) {
     fs.readFile( './style.css', function(error, data) {
       if(error){ console.log(error) }

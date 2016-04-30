@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  width: 700px;
+  margin: 0;
+  background: red;
+  font-family: serif;
+}
+
+body .container {
+  text-align: center;
+  margin: auto 0;
+}
+
+h1 {
+  font-size: 4em;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+  margin: 10px, auto;
+  text-align: center;
+}
+
+p {
+  font-size: 1.3em;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+  text-align: center;
+
+}
+
+.quote {
+  font-family: EB Garamond, serif;
+  font-size: 1.5em;
+  width: 700px;
+  height: auto;
+  margin: 0 auto;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 20px;
+  opacity: 0.6;
+  box-shadow: -10px 10px 20px;
+}
+
+.author {
+  font-style: italic;
+}
+
+.button {
+  font-family: serif;
+  font-size: 1.5em;
+  height: 50px;
+  width: 150px;
+  margin: 20px auto;
+  background-color: #00d4f2;
+  color: #001518;
+  text-shadow: 1px 1px 4px #fff;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: -5px 5px 10px;
+}
+
+.button:hover {
+  background-color: #6dc066;
+}
+
+.twitter {
+  padding-top: 60px;
+}
+
+#twitterBtn {
+  background: url("https://g.twimg.com/about/feature-corporate/image/tweetbutton.png") no-repeat center center;
+  background-size: contain;
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#twitterBtn:active{
+  box-shadow: 10px 10px 15px 0px #fff;
+}
+
+footer {
+  padding-top: 500px;
+}
